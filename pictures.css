@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
+
+body {
+  font-family: "Cabin", sans-serif;
+}
+
+.navbar {
+    background-color: #AEC3B0;  
+    display: flex; 
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black; 
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  .main-header {
+    display: flex;
+    justify-content: center;
+    background-color: #aec3b0;
+    padding: 20px;
+    font-size: large;
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .box1 {
+    background-color: #aec3b0;
+    width: 17%;
+  }
+
+  .sidebarimg {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+  }
+
+  .presentation1 {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  
+  .presentation2 {
+    text-align: center;
+  }
+  
+  .presentation3 {
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    
+  }
+
+  .container2 {
+    display: flex;
+    
+  }
+
+  img {
+    height: 250px;
+    width: 250px;
+    justify-content: space-around;
+  }
+ 
+  .img-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10rem;
+    padding: 25px;
+    
+  }

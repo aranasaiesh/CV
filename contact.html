@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Kontakt</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html">Hem</a>
+        <a href="cv.html">CV</a>
+        <a href="portfolio.html">Portfolio </a>
+        <a href="contact.html">Kontakt </a>
+        <a href="pictures.html">Bilder </a>
+    </nav>
+
+    <header class="main-header">
+        <h1>Kontakt</h1>
+    </header>
+
+
+
+    <section class="content">
+        <form action="action_page.php">
+      
+          <label for="fname">Förnamn</label>
+          <input type="text" id="fname" name="firstname" placeholder="Ditt namn...">
+      
+          <label for="lname">Efternamn</label>
+          <input type="text" id="lname" name="lastname" placeholder="Ditt efternamn...">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="exempel@email.com">
+
+      
+          <label for="country">Land</label>
+          <select id="country" name="country">
+            <option value="Sweden">Sweden</option>
+            <option value="other">annan...</option>
+          </select>
+      
+          <label for="subject">Ämne</label>
+          <textarea id="subject" name="subject" placeholder="Skriv här..." style="height:200px"></textarea>
+      
+         <button type="button">Skicka</button>
+        </form>
+    </section>
+
+      
+
+</body>
+</html>
