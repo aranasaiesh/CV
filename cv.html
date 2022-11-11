@@ -9,21 +9,15 @@
 </head>
 <body>
 
-  
     <nav class="navbar">
         <a href="index.html">Hem</a>
-        <a href="cv.html">CV</a>
+        <a class="active" href="cv.html">CV</a>
         <a href="portfolio.html">Portfolio </a>
         <a href="contact.html">Kontakt </a>
         <a href="pictures.html">Bilder </a>
     </nav>
-
-    <header class="header">
-        <h1>CV</h1>
-      </header>
       
-      
-      <section class="container">
+    <main class="container">
         <div class="box1">
              <img src="bilder/AranAsaiesh.jpg" alt="aran asaiesh" class="side-img"/>
              <p class="presentation1">aran.asaiesh@chasacademy.se</p>
@@ -31,39 +25,15 @@
              <p class="presentation3"><a href="https://linkedin.com/in/aranasaiesh">linkedin.com</a></p>
         </div>
 
+        
         <div class="cv-content">
-            <div class="cv-box2">
-                <h1>Arbetslivserfarenhet</h1>
-                <h3>UC Affärsfakta AB</h3>
-                <i>2019-2020</i>
-                <p>Account Manager</p>
-                <a>Telefonförsäljare mot företag där jag sålde in produkter från UC.</a>
-            </div>
-            
-            <div class="cv-box3">
-                <h3>LS Entertainment AB</h3>
-                <i>2017-2019</i>
-                <p>Account Manager</p>
-                <a>Vi skapade en sida där föreningar kunde livesända sina fotbollsmatcher.</a>
-            </div>
+            <ul id="employmentList"></ul>
 
-            <div class="cv-box4">
-                <h3>Willys Vinsta</h3>
-                <i>2016-2017</i>
-                <p>Ansvarig bröd</p>
-                <a>Började arbeta extra och fick efter två månader en fast tjänst med ansvar för brödavdelningen.</a>
-            </div>
-
-            <div class="cv-box5">
-                <h1>Utbildning</h1>
-                <h3>Chas Academy</h3>
-                <i>2022- pågående</i>
-                <p>Frontendutvecklare för mobil och webb</p>
-            </div>
-         
+            <ul id="educationList"></ul>
         </div>
-      </section>
+    </main>
       
+      <script type="module" src="./cv.js"></script>
 
 </body>
 </html>

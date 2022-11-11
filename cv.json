@@ -1,0 +1,34 @@
+{
+    "employments": [
+        {"company": "UC Affärsfakta AB",
+         "date": "2019-2020", 
+         "title": "Account Manager", 
+         "text":"Telefonförsäljare mot företag där jag sålde in produkter från UC."},
+
+        {"company": 
+        "LS Entertainment AB", 
+        "date": "2017-2019", 
+        "title": "Account Manager", 
+        "text":"Vi skapade en sida där föreningar kunde livesända sina fotbollsmatcher."},
+
+        {"company": "Willys Vinsta", 
+        "date": "2016-2017", 
+        "title": "Ansvarig bröd", 
+        "text":"Började arbeta extra och fick efter två månader en fast tjänst med ansvar för brödavdelningen."},
+
+        {"company": "Chas Academy", 
+        "date": "2022- pågående", 
+        "title": "Frontendutvecklare för mobil och webb", 
+        "text":"Examen 2024"}
+       
+    ]
+
+
+}
+
+
+    
+
+
+
+

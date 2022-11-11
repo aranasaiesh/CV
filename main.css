@@ -11,6 +11,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  height: 11vh;
 }
 
 .navbar a {
@@ -30,18 +31,12 @@ body {
 }
 
 .box1 {
+  display: flex;
   background-color: #aec3b0;
-  width: 18%;
+  min-width: 17%;
+  flex-direction: column;
 }
 
-.header {
-  display: flex;
-  justify-content: center;
-  background-color: #aec3b0;
-  padding: 20px;
-  font-size: large;
-  width: 100%;
-}
 
 .container {
   display: flex;
@@ -49,10 +44,11 @@ body {
 }
 
 .side-img {
-  width: 200px;
-  height: 200px;
+  max-width: 12rem;
+  max-height: 12rem;
   border-radius: 50%;
-  margin: 20px;
+  margin: 2rem;
+  margin-top: 8rem;
 }
 
 .presentation1 {
@@ -68,23 +64,30 @@ body {
   text-align: center;
 }
 
+.active {
+  background: white;
+  height: fit-content;
+}
+
 /* MAIN.HTML */
 .main-content {
-  padding: 2rem;
+  margin-left: 2rem;
 }
 
 .main-box2 {
   text-align: center;
   text-decoration: underline;
   text-decoration-color: #aec3b0;
+  margin-top: 5rem;
 }
 
 /* CV.HTML */
 
 .cv-content {
   margin-left: 12rem;
-  margin-top: 1rem;
+  margin-top: 4rem;
   text-align: center;
+
 }
 
 h3 {
@@ -104,9 +107,13 @@ a {
 /* PORTFOLIO.HTML */
 
 .portfolio-content {
+  display: flex;
+  flex-direction: column;
   width: 70%;
   justify-content: flex-start;
   text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .portfolio-box4{
@@ -114,7 +121,7 @@ a {
 }
 
 .portfolio-box2 {
-  text-align: center;
+  align-content: center;
 }
 
 h1 {
@@ -144,6 +151,22 @@ a {
 .portfolio-img-box2 {
   width: 400px;
   height: 200px;
+}
+
+.portfolio-img-box3 {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+span {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker{
+  50%{
+    opacity: 0;
+  }
 }
 
 /* Buttons & Popup*/
@@ -252,7 +275,12 @@ input[type=email] {
   background-color:#AEC3B0;
   padding: 20px;
   justify-content: center;
-  width: 100%;
+  max-width: 100%;
+  margin-top: 4rem;
+}
+
+ul {
+  list-style: none;
 }
 
 /* PICTURES.HTML */
@@ -269,4 +297,5 @@ input[type=email] {
   align-items: center;
   margin-left: 10rem;
   padding: 25px;
+  margin-top: 5rem;
 }
